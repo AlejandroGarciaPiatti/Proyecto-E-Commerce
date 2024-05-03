@@ -1,0 +1,31 @@
+.miHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: 5px solid #32e97b;
+    background-color: #2a2a2a;
+}
+
+.titulo{
+    color: #dedede;
+    font-size: 2rem;
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+.boton{
+    font-size: 1rem;
+    height: 55px;
+    width: 90px;
+}
+
+.secciones{
+    flex: 1;
+    text-align: center;
+}
+
+.widget{
+    flex: 1;
+    width: 100%;
+}

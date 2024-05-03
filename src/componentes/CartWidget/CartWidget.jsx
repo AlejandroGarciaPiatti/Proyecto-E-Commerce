@@ -1,9 +1,10 @@
 import cart from './assets/shopping-cart-outline-svgrepo-com(1).svg'
+import styles from "./CartWidget.module.css"
 
 const CartWidget = () => {
     return (
-        <div>
-            <img src={cart} id="widgetIcon" alt="cart-widget"/>
+        <div className={styles.numero}>
+            <img src={cart} alt="cart-widget"/>
             0
         </div>
     )

@@ -1,8 +1,10 @@
+import styles from "./ItemListContainer.module.css"
+
 const ItemListContainer = ({greeting}) => {
     
     return (
         <div>
-            <h1 id="saludo">{greeting}</h1>
+            <h1 className={styles.saludo}>{greeting}</h1>
         </div>
     )
 }
