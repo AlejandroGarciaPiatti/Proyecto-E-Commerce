@@ -1,0 +1,40 @@
+.Option{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.Button{
+    background-color: rgb(181, 20, 20);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+.Total{
+    text-align: right;
+    margin: 20px;
+}
+.CartFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; 
+}
+
+.Cart .Option{
+    display: inline;
+    width: 100px;
+}
