@@ -19,3 +19,9 @@ jobs:
           echo VITE_storageBucket=${{ secrets.VITE_storageBucket }} >> .env
           echo VITE_messagingSenderId=${{ secrets.VITE_messagingSenderId }} >> .env
           echo VITE_appId=${{ secrets.VITE_appId }} >> .env
+
+      - name: Upload .env to Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: env-file
+          path: .env
