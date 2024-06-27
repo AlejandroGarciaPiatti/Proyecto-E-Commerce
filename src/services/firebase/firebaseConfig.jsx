@@ -4,17 +4,17 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
 
-    apiKey: import.meta.env.VITE_apiKey,
+    apiKey: "AIzaSyAKAPYsPVw2QhH_HNU6kMxQR8OFbMInzJw",
   
-    authDomain: import.meta.env.VITE_authDomain,
+    authDomain: "cursosabadotest.firebaseapp.com",
   
-    projectId: import.meta.env.VITE_projectId,
+    projectId: "cursosabadotest",
   
-    storageBucket: import.meta.env.VITE_storageBucket,
+    storageBucket: "cursosabadotest.appspot.com",
   
-    messagingSenderId: import.meta.env.VITE_messagingSenderId,
+    messagingSenderId: "639393642758",
   
-    appId: import.meta.env.VITE_appId
+    appId: "1:639393642758:web:b74596a07c2ed"
   
   }
 
